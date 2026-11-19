@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your data — DocuForge</title>
+  <meta name="description" content="DocuForge keeps everything on your device. Here is exactly what is stored and how to delete it, with or without the app installed.">
+  <link rel="canonical" href="https://docuforge.app/data.html">
+  <meta name="theme-color" content="#04100e">
+  <link rel="icon" type="image/png" href="assets/img/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/img/app-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    try {
+      var t = localStorage.getItem("docuforge-theme");
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+    document.documentElement.classList.add("js");
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="brand__mark"><img src="assets/img/app-icon.png" alt="" width="30" height="30"></span>
+          DocuForge
+        </a>
+
+        <button class="icon-btn nav__toggle" type="button" data-nav-toggle
+                aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+
+        <div class="nav__links" id="primary-nav">
+          <a href="index.html#features">Features</a>
+          <a href="index.html#tools">34 tools</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+
+        <div class="nav__actions">
+          <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+            </svg>
+          </button>
+          <a class="btn btn--sm" href="https://play.google.com/store/apps/details?id=app.docuforge.studio"
+             rel="noopener" target="_blank">Get the app</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="legal">
+          <p class="eyebrow">Your data</p>
+          <h1>Everything stays on your phone</h1>
+          <p class="lede">
+            DocuForge has no account and no server. Nothing you process is uploaded, so there is
+            no profile to close and no remote copy to request. Deleting your data means deleting
+            it on your device — and that is entirely in your hands.
+          </p>
+
+          <h2 id="stored">What is stored on your device</h2>
+          <table>
+            <thead>
+              <tr><th>What</th><th>Where</th><th>How to remove it</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Results you created (PDFs, images, archives)</td>
+                <td>App private storage, plus your gallery or Downloads if you tapped Save or Export</td>
+                <td>Delete the file in the app or in your file manager</td>
+              </tr>
+              <tr>
+                <td>History — the last 30 results and their file metadata</td>
+                <td>App private storage, on device only</td>
+                <td>History → delete an entry, or <strong>Clear all</strong></td>
+              </tr>
+              <tr>
+                <td>Preferences — theme, language, biometric lock</td>
+                <td>App private storage</td>
+                <td>Change them in Settings, or uninstall the app</td>
+              </tr>
+              <tr>
+                <td>Originals you picked</td>
+                <td>Wherever they already lived on your device</td>
+                <td>Untouched by the app — delete them yourself if you want to</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2 id="delete">How to delete it</h2>
+          <ol class="steps-list">
+            <li>
+              <b>Delete one result</b>
+              <p>Open <strong>History</strong>, tap the item, choose <strong>Delete</strong>. The file and its entry are removed.</p>
+            </li>
+            <li>
+              <b>Clear the whole history</b>
+              <p>In <strong>History</strong>, tap <strong>Clear all</strong>. This removes the list and the app’s stored copies.</p>
+            </li>
+            <li>
+              <b>Remove everything at once</b>
+              <p>Uninstall DocuForge, or open Android <strong>Settings → Apps → DocuForge → Storage → Clear data</strong>. This deletes the app’s private storage, including history and preferences.</p>
+            </li>
+            <li>
+              <b>Delete exported copies</b>
+              <p>Files you saved to your gallery or Downloads live outside the app. Delete them from your gallery or file manager.</p>
+            </li>
+          </ol>
+
+          <div class="note">
+            <p><strong>There is nothing to delete on our side.</strong> Because the app transmits
+            nothing, we hold no copy of your files, no account record and no usage profile. If you
+            uninstall the app, everything it stored is gone.</p>
+          </div>
+
+          <h2 id="backup">Before you delete: back up</h2>
+          <p>
+            Deletion is permanent. If a document matters, export it to your gallery, Downloads or
+            another app first. DocuForge does not keep a cloud copy you can restore from.
+          </p>
+
+          <h2 id="permissions">Revoking permissions</h2>
+          <p>
+            You can revoke camera, photo or biometric access at any time in Android
+            <strong>Settings → Apps → DocuForge → Permissions</strong>. The app will simply ask
+            again the next time a tool needs that access, or stop offering the related feature.
+          </p>
+
+          <h2 id="questions">Questions</h2>
+          <p>
+            If something here does not match what you see in the app, tell us at
+            <a href="mailto:sderf236@gmail.com">sderf236@gmail.com</a> and we will correct
+            it. For the full picture of what the app does and does not do, read the
+            <a href="privacy.html">Privacy Policy</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html">
+            <span class="brand__mark"><img src="assets/img/app-icon.png" alt="" width="30" height="30"></span>
+            DocuForge
+          </a>
+          <p>Any photo, any PDF, any requirement — handled on your device.</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="index.html#tools">34 tools</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=app.docuforge.studio" rel="noopener" target="_blank">Google Play</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="data.html">Your data</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html">Help &amp; contact</a></li>
+            <li><a href="mailto:sderf236@gmail.com">sderf236@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span data-year>2026</span> DocuForge. All rights reserved.</p>
+        <p>Made for Android · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

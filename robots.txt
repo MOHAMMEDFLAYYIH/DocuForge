@@ -1,0 +1,7 @@
+# DocuForge website
+# Replace the sitemap URL with your real domain before publishing.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://docuforge.app/sitemap.xml

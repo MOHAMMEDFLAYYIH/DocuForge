@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found — DocuForge</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#04100e">
+  <link rel="icon" type="image/png" href="assets/img/app-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    try {
+      var t = localStorage.getItem("docuforge-theme");
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+    document.documentElement.classList.add("js");
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="brand__mark"><img src="assets/img/app-icon.png" alt="" width="30" height="30"></span>
+          DocuForge
+        </a>
+
+        <button class="icon-btn nav__toggle" type="button" data-nav-toggle
+                aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+
+        <div class="nav__links" id="primary-nav">
+          <a href="index.html#features">Features</a>
+          <a href="index.html#tools">34 tools</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+
+        <div class="nav__actions">
+          <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <div class="error-page">
+        <div>
+          <div class="error-page__code">404</div>
+          <h1 style="font-size:clamp(1.5rem,3vw,2rem)">This page went missing</h1>
+          <p class="lede" style="margin-inline:auto">The link may be broken, or the page moved somewhere else.</p>
+          <div class="btn-row" style="justify-content:center;margin-top:24px">
+            <a class="btn" href="index.html">Back to home</a>
+            <a class="btn btn--ghost" href="support.html">Get support</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__bottom" style="margin-top:0;border-top:0">
+        <p>&copy; <span data-year>2026</span> DocuForge. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

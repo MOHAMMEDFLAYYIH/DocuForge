@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DocuForge — Any photo, any PDF, any requirement</title>
+  <meta name="description" content="34 on-device tools for PDFs, photos and files: compress to an exact size, crop to official photo dimensions, sign, scan, OCR, redact and archive. No account, no upload, no ads.">
+  <link rel="canonical" href="https://docuforge.app/">
+  <meta name="theme-color" content="#04100e">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DocuForge">
+  <meta property="og:title" content="DocuForge — Any photo. Any PDF. Any requirement.">
+  <meta property="og:description" content="34 tools that run entirely on your phone. No account, no upload, no ads, no watermark.">
+  <meta property="og:url" content="https://docuforge.app/">
+  <meta property="og:image" content="https://docuforge.app/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DocuForge — Any photo. Any PDF. Any requirement.">
+  <meta name="twitter:description" content="34 tools that run entirely on your phone. No account, no upload, no ads.">
+  <meta name="twitter:image" content="https://docuforge.app/assets/img/og.jpg">
+
+  <link rel="icon" type="image/png" href="assets/img/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/img/app-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    try {
+      var t = localStorage.getItem("docuforge-theme");
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+    document.documentElement.classList.add("js");
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "DocuForge",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Android",
+    "description": "On-device toolbox for PDF, image, scan and archive tasks.",
+    "url": "https://docuforge.app/",
+    "downloadUrl": "https://play.google.com/store/apps/details?id=app.docuforge.studio",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "publisher": { "@type": "Organization", "name": "DocuForge" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="brand__mark">
+            <img src="assets/img/app-icon.png" alt="" width="30" height="30">
+          </span>
+          DocuForge
+        </a>
+
+        <button class="icon-btn nav__toggle" type="button" data-nav-toggle
+                aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+
+        <div class="nav__links" id="primary-nav">
+          <a href="index.html#features">Features</a>
+          <a href="index.html#tools">34 tools</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+
+        <div class="nav__actions">
+          <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+            </svg>
+          </button>
+          <a class="btn btn--sm" href="https://play.google.com/store/apps/details?id=app.docuforge.studio"
+             rel="noopener" target="_blank">Get the app</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div>
+            <p class="hero__badge"><span class="dot" aria-hidden="true"></span> <b>Now on Google Play</b> · 34 tools in one app</p>
+
+            <h1>Any photo. Any PDF.<br><span class="grad">Any requirement.</span></h1>
+
+            <p class="lede">
+              Compress to an exact file size, crop to an official photo size, sign a PDF,
+              scan a document, strip its metadata or pack it into an archive — all on your
+              phone. Nothing is uploaded, and there is no account to create.
+            </p>
+
+            <div class="hero__actions">
+              <div class="btn-row">
+                <a class="play-badge" href="https://play.google.com/store/apps/details?id=app.docuforge.studio"
+                   rel="noopener" target="_blank" aria-label="Get DocuForge on Google Play">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="#00d2ff" d="M3.6 1.8 14.4 12 3.6 22.2A2 2 0 0 1 3 20.7V3.3c0-.6.2-1.1.6-1.5z"/>
+                    <path fill="#ffd400" d="m17.1 8.6-2.7-2.6L5.1 1.4c-.4-.2-.8-.3-1.1-.2l10.8 10.8 2.3-3.4z"/>
+                    <path fill="#ff3b30" d="M17.1 15.4 14.8 12 3.99 22.8c.34.1.74 0 1.11-.2l9.3-4.6 2.7-2.6z"/>
+                    <path fill="#00c853" d="m20.9 11.1-3.8-2.5-2.3 3.4 2.3 3.4 3.8-2.5c1-.6 1-1.6 0-1.8z"/>
+                  </svg>
+                  <span class="play-badge__text">
+                    <span class="play-badge__small">Get it on</span>
+                    <span class="play-badge__big">Google Play</span>
+                  </span>
+                </a>
+                <a class="btn btn--ghost btn--lg" href="#tools">See all 34 tools</a>
+              </div>
+
+              <ul class="hero__meta">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>
+                  100% on-device
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>
+                  No account, ever
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>
+                  No ads, no watermark
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- CSS phone mockup — replace with a real screenshot when you have one -->
+          <div class="mock" aria-hidden="true">
+            <div class="mock__phone">
+              <div class="mock__screen">
+                <div class="mock__status"><span>9:41</span><span>▮▮▮ ⌁</span></div>
+                <div class="mock__title">DocuForge</div>
+                <div class="mock__sub">34 tools · 3 suites</div>
+
+                <div class="mock__doc">
+                  <div class="mock__thumb"></div>
+                  <div class="mock__lines">
+                    <b>Lease agreement — merged</b>
+                    <span>PDF · 2.4 MB · Today</span>
+                  </div>
+                </div>
+
+                <div class="mock__doc">
+                  <div class="mock__thumb mock__thumb--scan"></div>
+                  <div class="mock__lines">
+                    <b>Passport photo 35 × 45</b>
+                    <span>JPG · 300 DPI · 24 KB</span>
+                  </div>
+                </div>
+
+                <div class="mock__doc">
+                  <div class="mock__thumb"></div>
+                  <div class="mock__lines">
+                    <b>University transcript</b>
+                    <span>PDF · 8 pages · 12 Mar</span>
+                  </div>
+                </div>
+
+                <div class="mock__doc">
+                  <div class="mock__thumb mock__thumb--scan"></div>
+                  <div class="mock__lines">
+                    <b>Receipt — compressed</b>
+                    <span>JPG · 198 KB · 8 Mar</span>
+                  </div>
+                </div>
+
+                <div class="mock__fab">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M12 5v14M5 12h14"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="mock__chip mock__chip--tl">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>
+              Saved 82%
+            </div>
+            <div class="mock__chip mock__chip--br">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              Stays on device
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS ================= -->
+    <section class="section--tight">
+      <div class="container">
+        <div class="stats">
+          <div class="stat reveal"><b>34</b><span>tools across PDF, images and files</span></div>
+          <div class="stat reveal"><b>0</b><span>files uploaded — everything runs locally</span></div>
+          <div class="stat reveal"><b>10</b><span>languages, including Arabic and Hindi</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+    <section class="section section--surface" id="features">
+      <div class="container">
+        <div class="center reveal" style="max-width:700px;margin-inline:auto">
+          <p class="eyebrow">What DocuForge does</p>
+          <h2>A full document toolkit, not a single-purpose app</h2>
+          <p class="lede">Most phone utilities do one thing. DocuForge ships three suites — PDF, images and files — and every one of them works with the network switched off.</p>
+        </div>
+
+        <div class="grid grid--3" style="margin-top:40px">
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path>
+                <path d="M14 3v5h5M9 13h6M9 17h4"></path>
+              </svg>
+            </div>
+            <h3>15 PDF tools</h3>
+            <p>Merge, split and compress. Protect with AES-256, organise pages, sign, add watermarks, edit text, or build a PDF from plain text or Markdown.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                <circle cx="9" cy="9" r="2"></circle>
+                <path d="m21 15-5-5L5 21"></path>
+              </svg>
+            </div>
+            <h3>16 image tools</h3>
+            <p>Hit an exact KB target, convert HEIC or WebP, crop to social formats, resize in batch, redact, remove backgrounds and strip EXIF and GPS data.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 7V5a2 2 0 0 1 2-2h2M20 7V5a2 2 0 0 0-2-2h-2M4 17v2a2 2 0 0 0 2 2h2M20 17v2a2 2 0 0 1-2 2h-2"></path>
+                <rect x="8" y="8" width="8" height="8" rx="1"></rect>
+              </svg>
+            </div>
+            <h3>Scanner with auto-crop</h3>
+            <p>Scan up to 12 pages in one go, straighten edges automatically, then apply colour, grey or black-and-white filters before saving as PDF.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 7V4h16v3M9 20h6M12 4v16"></path>
+              </svg>
+            </div>
+            <h3>Official photo sizes</h3>
+            <p>17 document photo sizes across 15 countries — passport, visa and ID — at the right DPI, with an on-device face guide and a file-size ceiling.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+                <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+                <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+                <path d="M14 14h3v3h-3zM19 19h2v2h-2zM19 14h2M14 19h2"></path>
+              </svg>
+            </div>
+            <h3>QR, barcodes and archives</h3>
+            <p>Scan or generate QR codes and eight barcode formats. Create ZIP archives and extract ZIP, TAR, TAR.GZ, BZ2, XZ and ZST safely.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <h3>Private by design</h3>
+            <p>No analytics, no ad networks, no crash reporters, no social login. The app makes no network requests of its own — your files stay in local storage.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TOOLS ================= -->
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="center reveal" style="max-width:660px;margin-inline:auto">
+          <p class="eyebrow">The catalogue</p>
+          <h2>Everything inside the app</h2>
+          <p class="lede">Thirty-four tools, listed exactly as they ship. No “coming soon”, no locked placeholder screens.</p>
+        </div>
+
+        <div style="margin-top:44px" class="reveal">
+          <div class="suite">
+            <div class="suite__head">
+              <h3>PDF</h3><span>15 tools</span>
+            </div>
+            <ul class="tool-list">
+              <li>Merge PDF</li>
+              <li>Split PDF</li>
+              <li>Compress PDF</li>
+              <li>Compress to a target size</li>
+              <li>PDF → images</li>
+              <li>Images → PDF</li>
+              <li>Protect / unlock</li>
+              <li>Organise pages</li>
+              <li>Sign PDF</li>
+              <li>Watermark &amp; page numbers</li>
+              <li>Text → PDF</li>
+              <li>Edit PDF</li>
+              <li>PDF → text</li>
+              <li>Page setup</li>
+              <li>PDF reader</li>
+            </ul>
+          </div>
+
+          <div class="suite">
+            <div class="suite__head">
+              <h3>Images &amp; documents</h3><span>16 tools</span>
+            </div>
+            <ul class="tool-list">
+              <li>Compress to KB target</li>
+              <li>Official photo sizes</li>
+              <li>Format converter</li>
+              <li>Document scanner</li>
+              <li>Advanced crop</li>
+              <li>Batch resize</li>
+              <li>Text recognition (OCR)</li>
+              <li>Redact</li>
+              <li>Remove background</li>
+              <li>ID card → A4</li>
+              <li>Multi-page scan</li>
+              <li>Clean metadata</li>
+              <li>Image watermark</li>
+              <li>Adjust image</li>
+              <li>Social media crop</li>
+              <li>Collage</li>
+            </ul>
+          </div>
+
+          <div class="suite" style="margin-bottom:0">
+            <div class="suite__head">
+              <h3>Files</h3><span>3 tools</span>
+            </div>
+            <ul class="tool-list">
+              <li>QR scan &amp; create</li>
+              <li>Barcode generator</li>
+              <li>ZIP archiver</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="section section--surface">
+      <div class="container">
+        <div class="center reveal" style="max-width:620px;margin-inline:auto">
+          <p class="eyebrow">How it works</p>
+          <h2>Pick it, process it, save it</h2>
+        </div>
+
+        <div class="steps" style="margin-top:40px">
+          <div class="step reveal">
+            <h3>Pick a file</h3>
+            <p>Choose a photo, a PDF, or take a picture with the camera. No import queue, no upload spinner.</p>
+          </div>
+          <div class="step reveal">
+            <h3>Choose the result</h3>
+            <p>Set the size, format, pages or filter you need. Preview the outcome before you commit.</p>
+          </div>
+          <div class="step reveal">
+            <h3>Save or share</h3>
+            <p>Write to local storage, save to your gallery, or send it straight to another app.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SCREENSHOTS ================= -->
+    <section class="section" id="screens">
+      <div class="container">
+        <div class="center reveal" style="max-width:620px;margin-inline:auto">
+          <p class="eyebrow">Screenshots</p>
+          <h2>Take a look inside</h2>
+          <p class="lede">A clean, fast interface built for one-handed use.</p>
+        </div>
+
+        <!-- Replace each .shot with: <img src="assets/img/shot-1.png" alt="..." class="shot"> -->
+        <div class="shots" style="margin-top:40px">
+          <div class="shot reveal">Screenshot 1<br>Home</div>
+          <div class="shot reveal">Screenshot 2<br>PDF suite</div>
+          <div class="shot reveal">Screenshot 3<br>Scanner</div>
+          <div class="shot reveal">Screenshot 4<br>Export</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRIVACY ================= -->
+    <section class="section section--surface" id="privacy">
+      <div class="container">
+        <div class="band reveal">
+          <p class="eyebrow">Privacy</p>
+          <h2>Nothing leaves your phone</h2>
+          <p>
+            DocuForge has no account system, no analytics, no advertising and no third-party
+            tracking SDKs. Photos and PDFs are read and written locally; the app makes no network
+            requests of its own. History keeps the last 30 results on your device, and one tap
+            clears it.
+          </p>
+          <div class="btn-row" style="margin-top:22px">
+            <a class="btn" href="privacy.html">Read the privacy policy</a>
+            <a class="btn btn--ghost" href="data.html">How to delete your data</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="center reveal" style="margin-bottom:28px">
+          <p class="eyebrow">FAQ</p>
+          <h2>Common questions</h2>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Is DocuForge free?</summary>
+            <p>Yes. The app is free to download and every tool is available without an account or a subscription. There are no ads and no watermarks on your output.</p>
+          </details>
+          <details>
+            <summary>Does it upload my photos or documents?</summary>
+            <p>No. All processing happens on your device. The app contains no analytics, ad or tracking SDKs and makes no network requests of its own.</p>
+          </details>
+          <details>
+            <summary>Does it work offline?</summary>
+            <p>Yes, with one small exception: the face guide used when making passport photos downloads its ML Kit model once through Google Play services. After that it runs on-device. Your images are never sent to Google.</p>
+          </details>
+          <details>
+            <summary>Where are my files saved?</summary>
+            <p>Results go to the app’s local storage, and to your gallery or Downloads only when you tap Save or Export. Deleting a result, clearing history or uninstalling the app removes them permanently — keep your own backups of anything important.</p>
+          </details>
+          <details>
+            <summary>What is the History screen?</summary>
+            <p>It keeps your last 30 results plus file metadata, locally. You can delete individual entries or clear the whole list at any time, and you can optionally protect it with a biometric lock.</p>
+          </details>
+          <details>
+            <summary>Which languages are supported?</summary>
+            <p>Ten: Arabic, English, French, German, Hindi, Indonesian, Portuguese, Russian, Spanish and Turkish. Arabic and Hindi interfaces run right-to-left and left-to-right correctly.</p>
+          </details>
+          <details>
+            <summary>Does it add a watermark to my files?</summary>
+            <p>No. Watermarking is a tool you can choose to use; nothing is added to your output automatically.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta reveal">
+          <h2>Stop emailing files to yourself</h2>
+          <p>Install DocuForge and handle the PDF, the passport photo and the scan on the phone in your hand.</p>
+          <div class="btn-row">
+            <a class="play-badge" href="https://play.google.com/store/apps/details?id=app.docuforge.studio"
+               rel="noopener" target="_blank">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="#00d2ff" d="M3.6 1.8 14.4 12 3.6 22.2A2 2 0 0 1 3 20.7V3.3c0-.6.2-1.1.6-1.5z"/>
+                <path fill="#ffd400" d="m17.1 8.6-2.7-2.6L5.1 1.4c-.4-.2-.8-.3-1.1-.2l10.8 10.8 2.3-3.4z"/>
+                <path fill="#ff3b30" d="M17.1 15.4 14.8 12 3.99 22.8c.34.1.74 0 1.11-.2l9.3-4.6 2.7-2.6z"/>
+                <path fill="#00c853" d="m20.9 11.1-3.8-2.5-2.3 3.4 2.3 3.4 3.8-2.5c1-.6 1-1.6 0-1.8z"/>
+              </svg>
+              <span class="play-badge__text">
+                <span class="play-badge__small">Get it on</span>
+                <span class="play-badge__big">Google Play</span>
+              </span>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="support.html">Need help?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html">
+            <span class="brand__mark">
+              <img src="assets/img/app-icon.png" alt="" width="30" height="30">
+            </span>
+            DocuForge
+          </a>
+          <p>Any photo, any PDF, any requirement — handled on your device.</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="index.html#tools">34 tools</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=app.docuforge.studio" rel="noopener" target="_blank">Google Play</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="data.html">Your data</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html">Help &amp; contact</a></li>
+            <li><a href="mailto:sderf236@gmail.com">sderf236@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span data-year>2026</span> DocuForge. All rights reserved.</p>
+        <p>Made for Android · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
